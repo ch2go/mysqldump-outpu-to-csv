@@ -49,10 +49,6 @@ def parse_values(values, outfile):
                         strict=True
     )
 
-
-    outfile = open("out.txt", "w")
-
-
     writer = csv.writer(outfile, quoting=csv.QUOTE_MINIMAL)
 
 
